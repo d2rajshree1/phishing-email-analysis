@@ -1,0 +1,18 @@
+===== text/plain =====
+_______________________________________________
+Clientephishing@pot@hotmail.com,
+ 
+Saldo para cr&eacute;ito em conta.
+ 
+Mais informa&ccedil;&otilde;es em anexo.
+Protocolo: 4793122145117905827 ; 05:59:01 PM
+_______________________________________________
+===== text/html =====
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><p style="text-align: center;">_______________________________________________</p>
+<p style="text-align: center;">Clientephishing@pot,</p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">Saldo para créito em conta.</p>
+<p style="text-align: center;" aria-hidden="true">&nbsp;</p>
+<p style="text-align: center;">Mais informações em <strong>anexo</strong>.</p>
+<p style="text-align: center;">Protocolo: 4793122145117905827 ; 05:59:01 PM</p>
+<p style="text-align: center;">_______________________________________________</p>

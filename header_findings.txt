@@ -1,0 +1,4 @@
+Origin IP: 20.97.213.223 (Microsoft Azure, NetName MSFT, US), no reverse DNS
+HELO name: a3.domain (not a real domain)
+SPF=pass, DKIM=pass (d=gmail.com), DMARC=pass, compauth=pass
+Conclusion: legitimate Gmail account abused; authentication passing does not mean safe.

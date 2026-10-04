@@ -1,0 +1,2 @@
+DNS for okokoaksoa.z13.web.core.windows.net: no records (site taken down).
+PDF contains a single 520x735 RGB image on page 1 (no extractable text); the full-page invisible link points to the Azure static-site URL.

@@ -1,0 +1,1 @@
+Source: https://github.com/rf-peixoto/phishing_pot (email/sample-1000.eml), downloaded 2026-10-04

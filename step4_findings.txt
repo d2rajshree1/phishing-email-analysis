@@ -1,0 +1,5 @@
+No links in email body; attack relies on PDF attachment.
+Attachment: csWuYjyqO2IR.pdf, SHA-256 cfc5fbc759dcc599c8329dd94f9364394c7b1e875d6ff515c7337e00fb1f30cf
+Created with IronPdf v2022.11.10299 on 2023-07-26 09:51 EDT
+Hidden full-page link annotation -> hxxps://okokoaksoa[.]z13[.]web[.]core[.]windows[.]net/ (Azure static site, random hostname)
+No JavaScript in PDF.

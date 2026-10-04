@@ -1,0 +1,5 @@
+multipart/mixed | None
+multipart/alternative | None
+text/plain | None
+text/html | None
+application/pdf | csWuYjyqO2IR.pdf

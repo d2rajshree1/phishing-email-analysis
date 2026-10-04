@@ -1,0 +1,19 @@
+Authentication-Results: spf=pass (sender IP is 209.85.160.178) smtp.mailfrom=gmail.com; dkim=pass (signature was verified) header.d=gmail.com;dmarc=pass action=none header.from=gmail.com;compauth=pass reason=100
+
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates 209.85.160.178 as permitted sender) receiver=protection.outlook.com; client-ip=209.85.160.178; helo=mail-qt1-f178.google.com; pr=C
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20221208; t=1690394345; x=1690999145; h=mime-version:date:subject:to:from:message-id:from:to:cc:subject :date:message-id:reply-to; bh=y2T2Sr+veJnqO9ZXaHZSbigwvms6W5Z5HlMmClcV6jc=; b=MpAY9caHDs8C9oH2d87LIf9HY6kVxcF6oiZb2nx2iGi0qdfSXbxW+bHMlr4fzECzg2 iy39dmxUctw4ZRPlZsP6pZ8lFt/e5M5DetNbSkhP3DkcTUCb3fzrGaoj4ax6LsIJ3LLr 90xzBbR5ULSXI03dfCvKZJzxjE7VavQY3DUmr+v3ERzS5KkUN7oYfUlmU1ST0hpcE5Eb gsZg1NhziwRs2IwTUP8oWUzxP9g/RP1Mue43Ul0zh1NHMAPDtoAxR/huGV2XoPbv7ZLk z13P4wuHXiAgkaMfISW500M8z5/6uPHiVaPbmRU2lVYFEyk+8xhHlzU2i43YQebwQ2rk 0XRA==
+
+--- Received chain (top = last hop, bottom = origin) ---
+[1] from PH7PR19MB6592.namprd19.prod.outlook.com (2603:10b6:510:1b3::9) by MN0PR19MB6312.namprd19.prod.outlook.com with HTTPS; Wed, 26 Jul 2023 17:59:07 +0000
+
+[2] from MW4PR03CA0311.namprd03.prod.outlook.com (2603:10b6:303:dd::16) by PH7PR19MB6592.namprd19.prod.outlook.com (2603:10b6:510:1b3::9) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6609.33; Wed, 26 Jul 2023 17:59:05 +0000
+
+[3] from MW2NAM04FT023.eop-NAM04.prod.protection.outlook.com (2603:10b6:303:dd:cafe::86) by MW4PR03CA0311.outlook.office365.com (2603:10b6:303:dd::16) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29 via Frontend Transport; Wed, 26 Jul 2023 17:59:05 +0000
+
+[4] from mail-qt1-f178.google.com (209.85.160.178) by MW2NAM04FT023.mail.protection.outlook.com (10.13.30.111) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6631.29 via Frontend Transport; Wed, 26 Jul 2023 17:59:05 +0000
+
+[5] by mail-qt1-f178.google.com with SMTP id d75a77b69052e-403470df1d0so6241921cf.0 for <phishing@pot>; Wed, 26 Jul 2023 10:59:05 -0700 (PDT)
+
+[6] from a3.domain ([20.97.213.223]) by smtp.gmail.com with ESMTPSA id q5-20020ac87345000000b004069782c943sm2329278qtp.40.2023.07.26.10.59.04 for <phishing@pot> (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128); Wed, 26 Jul 2023 10:59:04 -0700 (PDT)
+

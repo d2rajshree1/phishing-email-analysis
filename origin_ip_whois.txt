@@ -1,0 +1,4 @@
+NetName:        MSFT
+Organization:   Microsoft Corporation (MSFT)
+OrgName:        Microsoft Corporation
+Country:        US
